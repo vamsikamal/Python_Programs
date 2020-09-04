@@ -107,6 +107,7 @@ print(len(list15))   # 5
 print(max(list15))   # 40
 print(min(list15))   # 10
 print(sum(list15))   # 130
+print(sum(list15) / len(list15))
 
 list15.sort()
 print(list15)    # [10, 20, 30, 30, 40]
