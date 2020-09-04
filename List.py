@@ -38,8 +38,13 @@ list4.append(50)
 print(list4)           # [10, 20, 30, 50]
 
 # insert
-list4.insert(0,"Hi")
+list4.insert(1,"Hi")
 print(list4)           # [10, 'Hi', 20, 30, 50]
 
 # extend
+list5 = [10, 20, 30]
+list6 = [50, 60, 70]
+list5.extend(list6)
+# list.extend([50, 60, 70])
+print(list5)
 
