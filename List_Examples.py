@@ -100,6 +100,7 @@ del list14
 list15 = [10, 20, 30, 40, 30]
 print(list15.index(30))   # 2
 
+
 # count
 print(list15.count(30))   # 2
 
