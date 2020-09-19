@@ -1,6 +1,2 @@
-def f1():
-    print("Inside function")
-    return None
-
-a = f1()
-print(a)
+for j in range(4):
+    print(j, end=" ")
