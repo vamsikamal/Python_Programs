@@ -1,0 +1,6 @@
+f = open('demo.txt', 'w')
+f.write('Hi\n')
+f.write('Good Morning\n')
+f.write('How are you?\n')
+f.close()
+print('File closed')
